@@ -1,0 +1,88 @@
+/* MessageForm.css */
+
+.message-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    background-color: #f3f3f3;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    margin: 50px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .message-form-container h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .message-form-container p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .message-textarea {
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    resize: none;
+    margin-bottom: 20px;
+    transition: border-color 0.3s;
+  }
+  
+  .message-textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .message-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .message-button:hover {
+    background-color: #0056b3;
+  }
+  
+  ul {
+    list-style: none;
+    
+    width: 100%;
+  }
+
+  ul li button{
+    padding: 10px;
+    width: 100%;
+   margin-bottom: 20px;
+   border-radius: 50px;
+   cursor: pointer;
+  }
+
+  ul li button:hover{
+   background-color: aliceblue;
+  }
+
+  ul li button:active{
+    background-color: aliceblue;
+   }
+  @media screen and (max-width:720px) {
+    ul li button span{
+      font-size: 9px;
+    }
+    
+  }
+
